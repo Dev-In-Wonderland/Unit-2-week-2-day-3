@@ -1,0 +1,182 @@
+ @import 'variabili';
+ .navbar-header{
+     background-color: $primary-color;
+     margin-top: 0;
+     width: 100%;
+     height: 25%;
+     ul{ margin-top: 3em;
+       display: flex;
+       justify-content: space-around
+   
+     }
+   }
+   li{
+     list-style-type: none;
+     padding: 0;
+ 
+   }
+   a{
+     text-decoration: none;
+     color:blue
+     
+   }
+   body{
+     color: green;
+   }
+   button {
+     padding: 3em;
+     background-color: red;
+     color: white;
+     border-radius: 18px;
+     margin: 3em;
+   }
+   footer{
+     position: fixed;
+     bottom:0;
+     background-color: blue;
+     text-align: center;
+     width: 100%;
+   }
+
+
+img{
+    display: block;
+    text-align: center;
+    margin: $margin;
+    margin-bottom: 40em;
+}
+
+// /* Declaring variables */
+// $range: 88vh;
+// $background_color: #f3f3f3;
+// $text-color: black;
+  
+// /* Declaring a mixin function by 
+//    passing a actual argument */
+// @mixin center($align) {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: $align;
+// }
+// *,
+// *::before,
+// *::after {
+//   padding: 0px;
+//   margin: 0px;
+//   box-sizing: inherit;
+// }
+  
+// .container {
+  
+//   /* Calling a mixin function name center
+//      by passing row as a information to
+//      it's actual argument */
+//   @include center(row);
+  
+//   /* Accessing variable using a '$' dollar sign */
+//   height: $range;
+//   button {
+//     border: none;
+//     @include center(row);
+//     box-sizing: border-box;
+//     cursor: pointer;
+//     font-size: 21px;
+//     font-weight: bold;
+//     letter-spacing: 2px;
+//     width: 200px;
+//     height: 46px;
+//     background-color: $background_color;
+//     color: $text-color;
+//     font-family: "Cormorant", "Garamond";
+//     margin-left: 23px;
+//     border-radius: 24px;
+//   }
+  
+//   .border_btn1 {
+//     width: 200px;
+//     height: 44px;
+//     padding: 3px;
+//     border-radius: 41px;
+//     margin-left: 21px;
+//   }
+//   .border_btn1_animate {
+//     background: linear-gradient(
+//       to left,
+//       red,
+//       orange,
+//       yellow,
+//       green,
+//       blue,
+//       indigo,
+//       violet
+//     );
+//   }
+  
+//   #{&}_button1 {
+//     margin-left: 0px;
+//     height: 44px;
+//     display: inline-block;
+//     position: relative;
+//   }
+//   .border_btn2 {
+//     width: 200px;
+//     height: 44px;
+//     padding: 3px;
+//     border-radius: 41px;
+//     margin-left: 21px;
+//   }
+//   .border_btn2_animate {
+//     background: linear-gradient(
+//       to right,
+//       chartreuse,
+//       #6161fd,
+//       #fd31fd,
+//       #ffb03a,
+//       red
+//     );
+//   }
+  
+//   #{&}_button2 {
+  
+//        /* Inheriting the properties 
+//           of container_button1 */
+//        @extend .container_button1;
+//   }
+// }
+// .btn1-hover:hover:before,
+// .btn2-hover:hover:before {
+//   position: absolute;
+//   left: 0px;
+//   top: 0px;
+//   line-height: 2.1;
+//   min-width: 49px;
+//   font-size: 100%;
+//   border-radius: 24px;
+//   background: rgba(0, 0, 0, 0.1);
+// }
+  
+// .btn1-hover:hover:before,
+// .btn2-hover:hover:before {
+//   content: url("");
+// }
+// .btn1-hover-animate:hover:before,
+// .btn2-hover-animate:hover:before {
+//   transition: width 0.5ms ease-in-out;
+//   animation: change 1s forwards 1;
+// }
+  
+// @keyframes change {
+//   0% {
+//     width: 1px;
+//   }
+//   100% {
+//     width: 200px;
+//   }
+// }
+
+
+
+
+
+
